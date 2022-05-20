@@ -12,13 +12,13 @@ const ctx = canvas.getContext("2d");
 // const img = new Image(50, 50);
 // img.src = "./assets/tank.png";
 
-const game = new Game(canvas, ctx);
+//const game = new Game(canvas, ctx);
 
-function draw() {
+function App() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  game.run(ctx);
+  //game.run(ctx);
   
   window.requestAnimationFrame(draw);
 }
 
-draw();
+export default App;
