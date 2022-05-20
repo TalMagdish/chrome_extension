@@ -1,3 +1,9 @@
+// function App() {
+//   return <div>Hello React!</div>;
+// }
+// 
+// export default App;
+
 import React from 'react';
 
 function App() {
@@ -5,8 +11,8 @@ function App() {
     <div
       style={{
         backgroundColor: 'blue',
-        width: '100px',
-        height: '100px'
+        // width: '100px',
+        // height: '100px'
       }}
     />
   );
