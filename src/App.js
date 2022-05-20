@@ -11,8 +11,8 @@ function App() {
     <div
       style={{
         backgroundColor: 'blue',
-        // width: '100px',
-        // height: '100px'
+         width: '100px',
+         height: '100px'
       }}
     />
   );
