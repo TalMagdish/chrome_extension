@@ -11,6 +11,11 @@ function App() {
     <div
       style={{
         backgroundColor: 'blue',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+         width: '100vw',
+         height: '100vh'
       }}
     />
   );
